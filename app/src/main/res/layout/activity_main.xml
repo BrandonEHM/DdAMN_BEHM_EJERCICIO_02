@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvIngresoUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_num1"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:background="@color/fondo_etiquetas"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/et_etiqueta_num1"
+        android:textSize="20sp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/tvIngresoDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_num2"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:background="@color/fondo_etiquetas"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/et_etiqueta_num2"
+        android:textSize="20sp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/tvEtiquetaResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:background="@color/fondo_etiquetas"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_etiqueta_suma"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/fondo_botones"
+        />
+
+    <Button
+        android:id="@+id/btResta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_etiqueta_menos"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/fondo_botones"
+        />
+
+    <Button
+        android:id="@+id/btMult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_etiqueta_mult"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/fondo_botones"
+        />
+
+    <Button
+        android:id="@+id/btDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_etiqueta_div"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/fondo_botones"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_etiqueta_Borrar"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:backgroundTint="@color/fondo_botones"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="900px"
+
+        android:background="@color/fondo_etiquetas"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        />
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BEHM_02</string>
+    <string name="etiqueta_num1">Ingrese el primer número</string>
+    <string name="etiqueta_num2">Ingrese el segundo número</string>
+    <string name="et_etiqueta_num1">0</string>
+    <string name="et_etiqueta_num2">0</string>
+    <string name="bt_etiqueta_suma">+</string>
+    <string name="bt_etiqueta_menos">-</string>
+    <string name="bt_etiqueta_mult">*</string>
+    <string name="bt_etiqueta_div">/</string>
+    <string name="bt_etiqueta_Borrar">AC</string>
+
+</resources>
